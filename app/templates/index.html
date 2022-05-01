@@ -9,11 +9,26 @@
         {% endif %}
     </head>
     <body>
-         <!-- Popular movie section  -->
-         <h3> Popular Movies</h3>
+         <!-- Sports news section  -->
+         <h3> Sports News</h3>
          <ul>
-            {% for popular_movie in sports %}
-                <li>{{ popular_movie.title}}</li>
+            {% for sport_news in sports %}
+                <li>{{ sport_news.title}}</li>
+            {% endfor %}
+        </ul>
+
+        <!-- General news  -->
+        <h3> General News </h3>
+         <ul>
+            {% for general_news in general %}
+                <li>{{ general_news.title}}</li>
+            {% endfor %}
+        </ul>
+        <!-- Health news -->
+        <h3>Health news </h3>
+         <ul>
+            {% for health_news in health %}
+                <li>{{ health_news.title}}</li>
             {% endfor %}
         </ul>
     </body>

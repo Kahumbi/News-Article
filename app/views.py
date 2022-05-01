@@ -11,8 +11,10 @@ def index():
     '''
 
     title = 'Home - Welcome to The best News Articles Website Online'
-    sport = get_news("sports")
-    return render_template('index.html', title = title,sports=sport)
+    sport_news = get_news("sports")
+    general_news = get_news('general')
+    health_news = get_news('health')
+    return render_template('index.html', title = title,sports=sport_news,general=general_news,health=health_news)
     
 
 @app.route('/news/<int:news_id>')
