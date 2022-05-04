@@ -52,7 +52,7 @@ def process_articles(articles_list):
         publishedAt = news_item.get('publishedAt')
         content = news_item.get('content')
 
-        # if poster:
+        # if urlToImage:
         news_object = News(id['id'],title,description,url,urlToImage,publishedAt,content)
         news_results.append(news_object)
 
