@@ -28,13 +28,18 @@ other contents by clicking a link that takes them to the entire news article.
 * Once your browser is running use this url to view the page `localhost:5000`
 
 # Behaviour Driven Development
-  1.Display various news sources             
+  1.Display various news sources   
+  
    *INPUT: Scroll through the page             
    *OUTPUT: List of various news categories
-  2.Display link to news Articles            
+   
+  2.Display link to news Articles
+  
    *INPUT: Click on go to article              
    *OUTPUT: Redirects to the parent page of news article
+   
   3.Displays the page of the news article    
+   
    *OUTPUT: The page loads up                   
    *INPUT: The article can now be read & viewed from image,descriptions & content
   
