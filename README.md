@@ -30,9 +30,9 @@ other contents by clicking a link that takes them to the entire news article.
 
 # Behaviour Driven Development
           BEHAVIOUR                               INPUT                                   OUTPUT
-  Display various news sources              Scroll through the page               List of various news categories
-  Display link to news Articles             Click on go to article                Redirects to the parent page of news article
-  Displays the page of the news article     The page loads up                     The article can now be read & viewed from image,descriptions & content
+  1.Display various news sources             * Scroll through the page             *  List of various news categories
+  2.Display link to news Articles            * Click on go to article              *  Redirects to the parent page of news article
+  3.Displays the page of the news article    * The page loads up                   * The article can now be read & viewed from image,descriptions & content
   
 # Copyright & Liscence Info
 Copyright and liscence information for this application have been registered under MIT LISCENCE. The author of this app is David Kahumbi. The live link to site is on GITHUB
